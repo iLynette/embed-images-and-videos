@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 152px;
+}
+#burger {
+    width: 20px;
+    height: 15px;
+    padding-top: 21px;
+    padding-left: 25px;
+}
+#logo {
+    background: transparent;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding-top: 18px;
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    color: black;
+}
+#search-bar {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 8px;
+    max-width: 100%;
+    margin-top: 12px;
+    width: 570px;
+    height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 2px 0 0 2px;
+}
+#search-button {
+    width: 15px;
+    height: 15px;
+    background-color: #f8f8f8;
+    margin-top: 12px;
+    padding: 7px 20px 6px 20px;
+    border-radius: 0 2px 2px 0;
+    border: 1px solid #ccc;
+    border-left: none;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 16px;
+}
+#create-video {
+    height: 14px;
+}
+#youtube-apps {
+    height: 17px;
+}
+#notifications {
+    height: 20px;
+}
+#user-icon {
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+}
+#page-container {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #fcfcfc;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'main-content video-links';  
+}
+
+#main-content {
+    grid-area: main-content;
+    margin-left: 80px;
+}
+#sub-feature-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#video-title {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5px;
+}
+#page-views {
+    font-size: 14px;
+    margin: 0;
+    color: gray;
+    margin-top: 10px;
+}
+#sub-feature-end {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.sub-feature-buttons {
+    margin: 0 5px 10px 5px;
+}hr {
+    color: lightgray;
+}
+#channel-info h5 {
+    display: inline;
+}
+#subscribe-number {
+    color: gray;
+    font-size: 14px;
+    margin-top: 0;
+}
+#video-description {
+    font-size: 14px;
+}
+#show-more {
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+}
+#channel-info button {
+    float: right;
+    color: white;
+    background-color: #c00;
+    border: none;
+    padding: 10px 17px 10px 17px;
+    border-radius: 2px;
+    margin: 10px 0 30px 15px;
+}
