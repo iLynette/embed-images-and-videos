@@ -115,11 +115,13 @@ header {
 }
 .sub-feature-buttons {
     margin: 0 5px 10px 5px;
-}hr {
+}
+hr {
     color: lightgray;
 }
 #channel-info h5 {
     display: inline;
+    padding: 5px;
 }
 #subscribe-number {
     color: gray;
@@ -142,4 +144,13 @@ header {
     padding: 10px 17px 10px 17px;
     border-radius: 2px;
     margin: 10px 0 30px 15px;
+}
+.video-links {
+    margin: 0;
+}
+.video-thumbnail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 20px;
 }
